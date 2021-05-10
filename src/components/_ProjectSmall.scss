@@ -1,0 +1,17 @@
+.ProjectSmall {
+    width: 30%;
+
+    .ProjectSmall-main {
+        // width: 30%;
+        border: 1px solid green;
+        img {
+            width: 100%;
+        }
+    }
+
+    .ProjectSmall-view {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
