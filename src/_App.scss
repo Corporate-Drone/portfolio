@@ -1,0 +1,9 @@
+@import './styles/_mixins';
+
+.App {
+@include center;
+border: 1px solid red;
+max-width: 1200px;
+margin: auto;
+flex-direction: column;
+}

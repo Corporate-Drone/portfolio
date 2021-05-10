@@ -1,0 +1,10 @@
+@import '../styles/_mixins';
+
+.About {
+    @include center;
+    flex-direction: column;
+
+    // .About-icons {
+        
+    // }
+}

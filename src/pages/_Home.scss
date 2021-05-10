@@ -1,0 +1,8 @@
+@import '../styles/_mixins';
+
+.Home {
+
+    .Home-icons {
+        @include center
+    }
+}
