@@ -1,5 +1,5 @@
 .Project {
-    max-width: 45%;
+    width: 45%;
     border: 1px solid green;
     img {
         width: 100%;
@@ -8,5 +8,11 @@
 
     p {
         
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Project {
+        width: 100%;
     }
 }
