@@ -1,7 +1,7 @@
 .ProjectSmall {
     width: 30%;
 
-    .ProjectSmall-main {
+    &-main {
         // width: 30%;
         border: 1px solid green;
         img {
@@ -9,13 +9,13 @@
         }
     }
 
-    .ProjectSmall-view {
+    &-view {
         display: flex;
         justify-content: space-between;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .ProjectSmall {
         width: 100%;
     }

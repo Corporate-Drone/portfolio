@@ -7,9 +7,8 @@ const Home = () => {
         <div className="Home">
             <h1>Hello, my name is Dustin and I am an inspiring web developer.</h1>
             <div className="Home-icons">
-                <Icon name={'fab fa-html5'} />
-                <Icon name={'fab fa-css3-alt'} />
-                <Icon name={'fab fa-js-square'} />
+                <Icon name={'fab fa-github fa-4x'} />
+                <Icon name={'far fa-envelope fa-4x'} />
             </div>
         </div>
     )

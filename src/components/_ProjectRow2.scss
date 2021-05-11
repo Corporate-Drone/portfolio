@@ -4,7 +4,7 @@
     // flex-direction: row;
     // width: 35%;
 
-    .ProjectRow2-group {
+    &-group {
         margin-top: 2em;
         border: 1px solid yellow;
         display: flex;
@@ -12,7 +12,7 @@
         flex-direction: row;
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 700px) {
         .ProjectRow2-group {
             flex-direction: column;
         }

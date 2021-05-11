@@ -4,7 +4,13 @@
     @include center;
     flex-direction: column;
 
-    // .About-icons {
-        
-    // }
+    &-icons {
+        @include center;
+        flex-direction: column;
+        margin: auto;
+
+        &-group-3 {
+            margin: auto;
+        }
+    }
 }
