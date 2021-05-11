@@ -3,6 +3,10 @@
 .Home {
 
     &-icons {
-        @include center
+        @include center;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
