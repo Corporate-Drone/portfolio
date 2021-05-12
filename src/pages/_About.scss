@@ -5,13 +5,33 @@
     min-height: 100vh;
     flex-direction: column;
 
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        margin: 0 auto;
+        margin-bottom: 2em;
+        width: 80%;
+    }
+
     &-icons {
-        @include center;
-        flex-direction: column;
-        margin: auto;
+    //     @include center;
+    //     flex-direction: column;
+    //     margin: auto;
+        margin: 0 auto;
 
         &-group-3 {
-            margin: auto;
+    //         margin: auto;
+        @include center;
         }
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .About-icons {
+        @include center;
+        flex-direction: column;
+        // margin: auto;
+    }
+  }

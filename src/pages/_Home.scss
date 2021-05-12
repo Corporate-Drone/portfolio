@@ -1,9 +1,16 @@
 @import '../styles/_mixins';
 
 .Home {
+    border: 1px solid green;
     min-height: 100vh;
+    @include center-vertically;
     &-icons {
         @include center;
         @include pointer;
+    }
+
+    h1 {
+        border: 1px solid red;
+        width: 50%;
     }
 }

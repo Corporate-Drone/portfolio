@@ -1,6 +1,10 @@
+@import '../styles/_mixins';
+
 .Project {
     width: 45%;
     border: 1px solid green;
+    // height: 45%;
+    height: 500px;
     img {
         width: 100%;
         border: 1px solid blue;

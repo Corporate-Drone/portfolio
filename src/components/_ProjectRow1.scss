@@ -1,11 +1,18 @@
+@import '../styles/_mixins';
+
 .ProjectRow1 {
     min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
+    @include center-vertically;
+
+    &-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media only screen and (max-width: 700px) {
-    .ProjectRow1 {
+    .ProjectRow1-projects {
         flex-direction: column;
     }
   }

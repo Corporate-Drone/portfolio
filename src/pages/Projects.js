@@ -6,7 +6,6 @@ import './_Projects.scss'
 function Projects() {
     return (
         <div className="Projects" id="projects">
-            <h1>Projects</h1>
             <ProjectRow1 />
             <ProjectRow2 />
         </div>

@@ -1,5 +1,8 @@
+@import '../styles/_mixins';
+
 .ProjectRow2 {
     min-height: 100vh;
+    @include center-vertically;
     // display: flex;
     // justify-content: space-between;
     // flex-direction: row;

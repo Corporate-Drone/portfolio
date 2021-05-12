@@ -1,3 +1,9 @@
+@import '../styles/_mixins';
+
 .Contact {
+    @include center;
+    text-align: center;
+    flex-direction: column;
     min-height: 100vh;
+    border: 2px solid black;
 }
