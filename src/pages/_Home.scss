@@ -1,16 +1,22 @@
 @import '../styles/_mixins';
 
 .Home {
-    border: 1px solid green;
-    min-height: 100vh;
     @include center-vertically;
+    min-height: 100vh;
     &-icons {
         @include center;
         @include pointer;
     }
 
     h1 {
-        border: 1px solid red;
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .Home {
+        h1 {
+            width: 100%;
+        }
+    }
+  }
