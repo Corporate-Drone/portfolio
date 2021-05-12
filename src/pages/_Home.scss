@@ -1,12 +1,9 @@
 @import '../styles/_mixins';
 
 .Home {
-
+    min-height: 100vh;
     &-icons {
         @include center;
-
-        &:hover {
-            cursor: pointer;
-        }
+        @include pointer;
     }
 }

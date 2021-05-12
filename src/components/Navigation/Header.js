@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ReactComponent as CloseMenu } from "../../assets/x.svg";
 import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
+import { Link } from 'react-scroll';
 import "./_Header.scss";
 
 const Header = () => {
@@ -17,17 +18,17 @@ const Header = () => {
           </a>
         </div>
         <ul className={click ? "header-nav-options active" : "header-nav-options"}>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="#">Home</a>
+          <li className="option">
+            <Link onClick={closeMobileMenu} activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link>
           </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="#">About</a>
+          <li className="option">
+            <Link onClick={closeMobileMenu} activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About</Link>
           </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="#">Projects</a>
+          <li className="option">
+            <Link onClick={closeMobileMenu} activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
           </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="#">Contact</a>
+          <li className="option">
+            <Link onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
           </li>
         </ul>
       </div>
