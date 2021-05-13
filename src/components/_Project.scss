@@ -4,7 +4,7 @@
     width: 45%;
     border: 1px solid green;
     // height: 45%;
-    height: 500px;
+    height: 600px;
     img {
         width: 100%;
         border: 1px solid blue;
@@ -12,6 +12,17 @@
 
     p {
         
+    }
+
+    &-technology {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item {
+            border: 1px solid black;
+            margin-bottom: 5px;
+            margin-right: 5px;
+        }
     }
 }
 
