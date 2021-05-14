@@ -3,7 +3,6 @@
 .Project {
     width: 45%;
     border: 1px solid green;
-    // height: 45%;
     height: 600px;
     img {
         width: 100%;
@@ -20,9 +19,14 @@
 
         &-item {
             border: 1px solid black;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
             margin-right: 5px;
+            transition: transform 250ms;
+            cursor: default;
+            @include hoverAnimation;
         }
+
+        
     }
 }
 

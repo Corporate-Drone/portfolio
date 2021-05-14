@@ -6,10 +6,16 @@
     &-icons {
         @include center;
         @include pointer;
+        margin-top: 1em;
     }
 
     h1 {
         width: 50%;
+        margin:auto;
+    }
+
+    a {
+        color: inherit;
     }
 }
 
