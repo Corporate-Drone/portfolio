@@ -8,6 +8,9 @@ function ProjectSmall(props) {
         <div className="ProjectSmall">
             <div className="ProjectSmall-main">
                 <img src={sourceImg}></img>
+                <div className="ProjectSmall-main-info">
+                    A campgrounds information-sharing website made with Node.js, Express and MongoDB.
+                </div>
             </div>
             <div className="ProjectSmall-view">
                 <p>{title}</p>

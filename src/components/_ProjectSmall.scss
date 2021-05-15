@@ -4,8 +4,29 @@
     &-main {
         // width: 30%;
         border: 1px solid green;
+        // display: flex;
+        position: relative;
+
+        &-info {
+            width: 100%;
+            // height: 50%;
+            border: 1px solid red;
+            color: yellow;
+            position: absolute;
+            top: 40%;
+        }
+
         img {
             width: 100%;
+            background-color: rgba(141, 153, 174, 0.5);
+            position: relative;
+            
+
+            &:hover {
+                z-index: 1;
+                cursor: pointer;
+                background-color: rgba(141, 153, 174, 1);
+            }
         }
     }
 
