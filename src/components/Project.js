@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Button from '../components/UIElements/Button'
 
 import './_Project.scss'
 
@@ -7,21 +8,26 @@ function Project(props) {
     const { sourceImg, title, description, technology } = props;
 
     const techItems = technology.map(item => (
-        <div className="Project-technology-item">{item}</div>
+        <div className="Project-detail-technology-item">{item}</div>
     ))
 
     return (
         <div className="Project">
-            <img src={sourceImg}></img>
-            <h2>{title}</h2>
-            <p>{description}</p>
-            <div className="Project-technology">
-                {techItems}
+            <div className="Project-image">
+                <img src={sourceImg}></img>
             </div>
-            <div className="Project-buttons">
-                <button>Github</button>
-                <button>Live</button>
+            <div className="Project-detail">
+                <h2>{title}</h2>
+                <p>{description}</p>
+                <div className="Project-detail-technology">
+                    {techItems}
+                </div>
+                <div className="Project-detail-buttons">
+                    <Button name={'fab fa-github fa-2x'} link={'https://github.com/Corporate-Drone'} />
+                    <Button name={'fas fa-external-link-alt fa-2x'} link={'https://github.com/Corporate-Drone'} />
+                </div>
             </div>
+
         </div>
     )
 }

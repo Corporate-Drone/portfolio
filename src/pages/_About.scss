@@ -4,6 +4,7 @@
     @include center;
     min-height: 100vh;
     flex-direction: column;
+    border: 1px solid brown;
 
     h1 {
         text-align: center;
@@ -27,6 +28,10 @@
         }
     }
 }
+
+.__react_component_tooltip.show {
+    opacity: 1 !important;
+  }
 
 @media only screen and (max-width: 700px) {
     .About-icons {

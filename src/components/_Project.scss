@@ -1,37 +1,77 @@
 @import '../styles/_mixins';
 
 .Project {
-    width: 45%;
+    margin-bottom: 1em;
     border: 1px solid green;
-    height: 600px;
-    img {
-        width: 100%;
+    @include center-vertically;
+    flex-direction: row;
+
+
+    &-image {
         border: 1px solid blue;
-    }
+        width: 50%;
 
-    p {
-        
-    }
-
-    &-technology {
-        display: flex;
-        flex-wrap: wrap;
-
-        &-item {
-            border: 1px solid black;
-            margin-bottom: 15px;
-            margin-right: 5px;
-            transition: transform 250ms;
-            cursor: default;
-            @include hoverAnimation;
+        &:hover {
+            z-index: 1;
         }
 
-        
+        img {
+            width: 100%;
+        }
     }
+
+
+    &-detail {
+        width: 50%;
+        height: 50%;
+        background-color: grey;
+        margin-left: -5em;
+        padding: 0.5em;
+
+        &-technology {
+            display: flex;
+            flex-wrap: wrap;
+    
+            &-item {
+                border: 1px solid black;
+                background-color: black;
+                color: white;
+                margin-bottom: 15px;
+                margin-right: 5px;
+                padding: 0.3em;
+                transition: transform 250ms;
+                cursor: default;
+                @include hoverAnimation;
+
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        &-buttons {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+
 }
 
 @media only screen and (max-width: 700px) {
     .Project {
-        width: 100%;
+
+        &-image {
+            position: absolute;
+            width: 100%;
+            height: 46.5%;
+        }
+
+        &-detail {
+            width: 100%;
+            background-color: transparent;
+            margin-left: 0;
+        }
     }
 }

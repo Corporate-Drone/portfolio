@@ -5,7 +5,7 @@ import './_Contact.scss'
 function Contact() {
     return (
         <div className="Contact" id="contact">
-            <Fade delay="10">
+            <Fade delay="10" triggerOnce>
                 <h1>Get In Touch</h1>
                 <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
                 <a href="mailto:webmaster@example.com">Jon Doe</a>
