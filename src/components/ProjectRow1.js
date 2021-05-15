@@ -9,14 +9,77 @@ function ProjectRow1() {
         sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
         title: 'Chirp',
         description: 'A social media MERN stack application inspired by Twitter. Users can upload a picture of themselves, like other chirps, and follow other users. ',
-        technology: ['MongoDB', 'Express', 'React', 'Node.js', 'Passport', 'MaterialUI', 'Cloudinary']
+        technology: [
+            {
+                name: 'MongoDB',
+                website: 'https://www.mongodb.com/'
+            },
+            {
+                name: 'Express',
+                website: 'https://expressjs.com/'
+            },
+            {
+                name: 'React',
+                website: 'https://reactjs.org/'
+            },
+            {
+                name: 'Node.js',
+                website: 'https://nodejs.org/'
+            },
+            {
+                name: 'Passport JS',
+                website: 'http://www.passportjs.org/'
+            },
+            {
+                name: 'MaterialUI',
+                website: 'https://material-ui.com/'
+            },
+            {
+                name: 'Cloudinary',
+                website: 'https://cloudinary.com/'
+            }
+
+        ]
     }
 
     const Devblog = {
         sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
         title: 'Devblog',
         description: 'A CRUD blog application where users can share what they have been developing. Users can post blog posts with images or animated gifs and like and comment on other blog posts. ',
-        technology: ['MongoDB', 'Express', 'EJS', 'Node.js', 'Passport', 'Cloudinary', 'Bootstrap', 'TinyMCE']
+        technology: [
+            {
+                name: 'MongoDB',
+                website: 'https://www.mongodb.com/'
+            },
+            {
+                name: 'Express',
+                website: 'https://expressjs.com/'
+            },
+            {
+                name: 'EJS',
+                website: 'https://ejs.co/'
+            },
+            {
+                name: 'Node.js',
+                website: 'https://nodejs.org/'
+            },
+            {
+                name: 'Passport JS',
+                website: 'http://www.passportjs.org/'
+            },
+            {
+                name: 'Cloudinary',
+                website: 'https://cloudinary.com/'
+            },
+            {
+                name: 'Bootstrap',
+                website: 'https://getbootstrap.com/'
+            },
+            {
+                name: 'TinyMCE',
+                website: 'https://www.tiny.cloud/'
+            }
+        ]
     }
 
     return (

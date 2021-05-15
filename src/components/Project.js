@@ -8,7 +8,9 @@ function Project(props) {
     const { sourceImg, title, description, technology } = props;
 
     const techItems = technology.map(item => (
-        <div className="Project-detail-technology-item">{item}</div>
+        <a href={item.website} target="_blank">
+            <div className="Project-detail-technology-item">{item.name}</div>
+        </a>
     ))
 
     return (
