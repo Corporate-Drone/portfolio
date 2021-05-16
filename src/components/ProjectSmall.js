@@ -3,20 +3,20 @@ import Button from '../components/UIElements/Button'
 import './_ProjectSmall.scss'
 
 function ProjectSmall(props) {
-    const { sourceImg, title, description, buttonLink } = props;
+    const { sourceImg, title, description, buttonLinkGithub, buttonLinkLive } = props;
     return (
         <div className="ProjectSmall">
             <div className="ProjectSmall-main">
                 <img src={sourceImg}></img>
                 <div className="ProjectSmall-main-info">
-                    A campgrounds information-sharing website made with Node.js, Express and MongoDB.
+                    <h3>{title}</h3>
+                    <p>{description}</p>
                 </div>
             </div>
             <div className="ProjectSmall-view">
-                <p>{title}</p>
                 <div className="ProjectSmall-buttons">
-                    <Button name={'fab fa-github fa-2x'} link={buttonLink} />
-                    <Button name={'fas fa-external-link-alt fa-2x'} link={buttonLink} />
+                    <Button name={'fab fa-github fa-2x'} link={buttonLinkGithub} />
+                    <Button name={'fas fa-external-link-alt fa-2x'} link={buttonLinkLive} />
                 </div>
             </div>
         </div>
