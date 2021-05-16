@@ -14,6 +14,7 @@ const Home = () => {
                 <div className="Home-icons">
                     <a href='https://github.com/Corporate-Drone' target="_blank"><Icon name={'fab fa-github fa-4x'} /></a>
                     <Icon name={'far fa-envelope fa-4x'} />
+                    <Icon name={'far fa-file fa-4x'} about={true} tipName={'resumeTip'} tipText={'Resume'} />
                 </div>
             </Fade>
         </div>

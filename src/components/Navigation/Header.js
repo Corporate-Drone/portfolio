@@ -30,6 +30,9 @@ const Header = () => {
           <li className="option">
             <Link onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
           </li>
+          <li className="option resume">
+            <Link onClick={closeMobileMenu} activeClass="active" spy={true} smooth={true} duration={1000}>Resume</Link>
+          </li>
         </ul>
       </div>
       <div className="header-mobile-menu" onClick={handleClick}>

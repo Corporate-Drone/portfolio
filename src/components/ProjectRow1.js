@@ -82,6 +82,22 @@ function ProjectRow1() {
         ]
     }
 
+    const Portfolio = {
+        sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
+        title: 'Portfolio',
+        description: 'My personal website built with React to showcase what I have been working on. ',
+        technology: [
+            {
+                name: 'React',
+                website: 'https://reactjs.org/'
+            },
+            {
+                name: 'Sass',
+                website: 'https://sass-lang.com/'
+            }
+        ]
+    }
+
     return (
 
         <div className="ProjectRow1">
@@ -92,6 +108,7 @@ function ProjectRow1() {
                 <div className="ProjectRow1-projects">
                     <Project sourceImg={Chirp.sourceImg} title={Chirp.title} description={Chirp.description} technology={Chirp.technology} />
                     <Project sourceImg={Devblog.sourceImg} title={Devblog.title} description={Devblog.description} technology={Devblog.technology} />
+                    <Project sourceImg={Portfolio.sourceImg} title={Portfolio.title} description={Portfolio.description} technology={Portfolio.technology} />
                 </div>
             </Bounce>
         </div >
