@@ -8,7 +8,7 @@ function ProjectRow1() {
     const Chirp = {
         sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
         title: 'Chirp',
-        description: 'A social media MERN stack application inspired by Twitter. Users can upload a picture of themselves, like other chirps, and follow other users. ',
+        description: 'A social media MERN stack application inspired by Twitter. Users can upload a picture of themselves, like other chirps, and follow other users. Users can only see chirps made from the users they follow. ',
         technology: [
             {
                 name: 'MongoDB',
