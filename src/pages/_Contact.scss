@@ -5,4 +5,17 @@
     text-align: center;
     flex-direction: column;
     min-height: 100vh;
+
+    &-games {
+        border: 1px solid brown;
+        @include center;
+    }
 }
+
+@media only screen and (max-width: 700px) {
+    .Contact {
+        &-games {
+            flex-direction: column;
+        }
+    }
+  }

@@ -1,0 +1,20 @@
+.Game {
+    border: 1px solid red;
+    margin-right: 1em;
+    .static {
+        position:absolute;
+        background: white;
+    
+        &:hover {
+            opacity:0;
+        }
+      }
+}
+
+@media only screen and (max-width: 700px) {
+    .Game {
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

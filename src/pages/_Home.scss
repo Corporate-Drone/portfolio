@@ -3,6 +3,7 @@
 .Home {
     @include center-vertically;
     min-height: 100vh;
+    position: relative;
     &-icons {
         @include center;
         @include pointer;
@@ -11,7 +12,10 @@
 
     h1 {
         width: 50%;
-        margin:auto;
+        // margin: auto;
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -19,6 +23,7 @@
     .Home {
         h1 {
             width: 100%;
+            margin-top: -4em;
         }
     }
   }

@@ -85,7 +85,7 @@ function ProjectRow1() {
     const Portfolio = {
         sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
         title: 'Portfolio',
-        description: 'My personal website built with React to showcase what I have been working on. ',
+        description: 'My personal website designed with Figma and built with React to showcase what I have been working on. ',
         technology: [
             {
                 name: 'React',
