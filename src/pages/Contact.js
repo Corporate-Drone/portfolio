@@ -10,10 +10,12 @@ function Contact() {
                 <h1>Get In Touch</h1>
                 <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
                 <a href="mailto:webmaster@example.com">Jon Doe</a>
-                <h3>I also do game development in my free time.</h3>
+                <Fade delay="50" triggerOnce>
+                    <h3>I also do game development in my free time.</h3>
+                </Fade>
                 <div className="Contact-games">
-                    <Game title={'Squat Rack Defender'}/>
-                    <Game title={'Plastic Onslaught'}/>
+                    <Game title={'Squat Rack Defender'} />
+                    <Game title={'Plastic Onslaught'} />
                 </div>
             </Fade>
         </div>

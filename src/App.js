@@ -3,16 +3,17 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Header from './components/Navigation/Header'
+import { Fade } from "react-awesome-reveal";
 import './_App.scss'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+        <Header />
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
     </div>
   );
 }

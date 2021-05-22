@@ -17,6 +17,9 @@ const Home = () => {
                     <Icon name={'far fa-file fa-4x'} about={true} tipName={'resumeTip'} tipText={'Resume'} />
                 </div>
             </Fade>
+            <Fade delay="50" triggerOnce>
+                <i className="fas fa-chevron-down fa-3x Home-down"></i>
+            </Fade>
         </div>
 
     )
