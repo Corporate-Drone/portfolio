@@ -7,6 +7,7 @@ function ProjectSmall(props) {
     return (
         <div className="ProjectSmall">
             <div className="ProjectSmall-main">
+                <div className="ProjectSmall-main-overlay"></div>
                 <img src={sourceImg}></img>
                 <div className="ProjectSmall-main-info">
                     <h3>{title}</h3>

@@ -5,7 +5,7 @@ import Button from '../components/UIElements/Button'
 import './_Project.scss'
 
 function Project(props) {
-    const { sourceImg, title, description, technology } = props;
+    const { sourceImg, title, description, technology, githubLink, liveLink } = props;
 
     const techItems = technology.map(item => (
         <a href={item.website} target="_blank">
@@ -16,7 +16,7 @@ function Project(props) {
     return (
         <div className="Project">
             <div className="Project-image">
-                <img src={sourceImg}></img>
+                <img src={sourceImg} alt={title}></img>
             </div>
             <div className="Project-detail">
                 <h2>{title}</h2>
@@ -25,8 +25,8 @@ function Project(props) {
                     {techItems}
                 </div>
                 <div className="Project-detail-buttons">
-                    <Button name={'fab fa-github fa-2x'} link={'https://github.com/Corporate-Drone'} />
-                    <Button name={'fas fa-external-link-alt fa-2x'} link={'https://github.com/Corporate-Drone'} />
+                    <Button name={'fab fa-github fa-2x'} link={githubLink} />
+                    <Button name={'fas fa-external-link-alt fa-2x'} link={liveLink} />
                 </div>
             </div>
 
