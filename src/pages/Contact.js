@@ -15,7 +15,7 @@ function Contact() {
                 </Fade>
                 <div className="Contact-games">
                     <Game title={'Squat Rack Defender'} />
-                    <Game title={'Plastic Onslaught'} />
+                    <Game title={'Plastic Onslaught (WIP)'} />
                 </div>
             </Fade>
         </div>

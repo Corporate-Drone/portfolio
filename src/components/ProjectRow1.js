@@ -4,6 +4,7 @@ import Project from './Project'
 import './_ProjectRow1.scss'
 import chirp from '../images/projects/chirp.png';
 import devblog from '../images/projects/devblog.png';
+import portfolio from '../images/projects/portfolio.PNG';
 
 function ProjectRow1() {
 
@@ -89,7 +90,7 @@ function ProjectRow1() {
     }
 
     const Portfolio = {
-        sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
+        // sourceImg: {'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png'},
         title: 'Portfolio',
         description: 'My personal website designed with Figma and built with React to showcase what I have been working on. ',
         github: 'https://github.com/Corporate-Drone',
@@ -116,7 +117,7 @@ function ProjectRow1() {
                 <div className="ProjectRow1-projects">
                     <Project sourceImg={chirp} title={Chirp.title} description={Chirp.description} technology={Chirp.technology} githubLink={Chirp.github} liveLink={Chirp.live} />
                     <Project sourceImg={devblog} title={Devblog.title} description={Devblog.description} technology={Devblog.technology} githubLink={Devblog.github} liveLink={Devblog.live} />
-                    <Project sourceImg={Portfolio.sourceImg} title={Portfolio.title} description={Portfolio.description} technology={Portfolio.technology} githubLink={Portfolio.github} liveLink={Portfolio.live} />
+                    <Project sourceImg={portfolio} title={Portfolio.title} description={Portfolio.description} technology={Portfolio.technology} githubLink={Portfolio.github} liveLink={Portfolio.live} />
                 </div>
             </Bounce>
         </div >

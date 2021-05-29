@@ -3,7 +3,7 @@
 .ProjectRow1 {
     min-height: 100vh;
     @include center-vertically;
-    border: 1px solid red;
+    // border: 1px solid red;
 
     &-projects {
         display: flex;

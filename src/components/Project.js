@@ -16,6 +16,7 @@ function Project(props) {
     return (
         <div className="Project">
             <div className="Project-image">
+                <div className="Project-image-overlay"></div>
                 <img src={sourceImg} alt={title}></img>
             </div>
             <div className="Project-detail">

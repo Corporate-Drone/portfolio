@@ -2,7 +2,7 @@
 
 .App {
 @include center;
-border: 1px solid red;
+// border: 1px solid red;
 max-width: 1200px;
 margin: auto;
 flex-direction: column;
@@ -15,3 +15,12 @@ a {
     color: inherit;
 }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #353535; 
+  }
