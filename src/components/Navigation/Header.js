@@ -13,8 +13,9 @@ const Header = () => {
     <div className="header">
       <div className="header-logo-nav">
         <div className="header-logo-container">
-          <a href="#">
-            <Logo className="logo" />
+          <a href="">
+            {/* <Logo className="logo" /> */}
+            <div className="header-logo">D</div>
           </a>
         </div>
         <ul className={click ? "header-nav-options active" : "header-nav-options"}>
