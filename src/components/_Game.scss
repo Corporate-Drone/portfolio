@@ -1,11 +1,19 @@
 .Game {
     border: 1px solid red;
     margin-right: 1em;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
     .static {
         position:absolute;
         background: white;
+        transition: 0.5s;
+        filter: grayscale(100%);
     
         &:hover {
+            filter: grayscale(0%);
             opacity:0;
         }
       }
