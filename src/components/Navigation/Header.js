@@ -1,14 +1,19 @@
 import React, { useState } from "react";
+import { Link } from 'react-scroll';
+import { useSelector, useDispatch } from 'react-redux'
 import { ReactComponent as CloseMenu } from "../../assets/x.svg";
 import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { Link } from 'react-scroll';
+import { toggleTheme} from '../../actions';
 import "./_Header.scss";
 
 const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const dispatch = useDispatch();
+  const theme = useSelector(state => state.darkThemeEnabled)
+
   return (
     <div className="header">
       <div className="header-logo-nav">
@@ -34,7 +39,13 @@ const Header = () => {
           <li className="option resume">
             <Link onClick={closeMobileMenu} activeClass="active" spy={true} smooth={true} duration={1000}>Resume</Link>
           </li>
+          <li className="theme" onClick={() => dispatch(toggleTheme())}>
+            {!theme && <i class="fas fa-moon fa-2x"></i>}
+            {theme && <i class="far fa-moon fa-2x"></i>}
+          </li>
         </ul>
+      </div>
+      <div>
       </div>
       <div className="header-mobile-menu" onClick={handleClick}>
         {click ? (

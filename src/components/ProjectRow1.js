@@ -101,6 +101,10 @@ function ProjectRow1() {
                 website: 'https://reactjs.org/'
             },
             {
+                name: 'Redux',
+                website: 'https://redux.js.org/'
+            },
+            {
                 name: 'Sass',
                 website: 'https://sass-lang.com/'
             }
