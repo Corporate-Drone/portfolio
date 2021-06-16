@@ -8,7 +8,6 @@ function Game(props) {
     return (
         <Fade delay="50" triggerOnce>
             <div className="Game">
-                {/* <h4>{title}</h4> */}
                 <a href='https://afeathereddinosaur.itch.io/squatrackdefender' target="_blank">
                     <img src={image} alt={title} class="static"></img>
                     <img src={gif} alt={title} class="active"></img>

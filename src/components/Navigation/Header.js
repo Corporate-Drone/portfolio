@@ -14,8 +14,13 @@ const Header = () => {
   const dispatch = useDispatch();
   const theme = useSelector(state => state.darkThemeEnabled)
 
+  const handleThemeClick = () => {
+    dispatch(toggleTheme())
+    closeMobileMenu()
+  }
+
   return (
-    <div className="header">
+    <div className={theme ? "header dark-header" : "header"}>
       <div className="header-logo-nav">
         <div className="header-logo-container">
           <a href="">
@@ -39,9 +44,9 @@ const Header = () => {
           <li className="option resume">
             <Link onClick={closeMobileMenu} activeClass="active" spy={true} smooth={true} duration={1000}>Resume</Link>
           </li>
-          <li className="theme" onClick={() => dispatch(toggleTheme())}>
+          <li className="theme" onClick={handleThemeClick}>
             {!theme && <i class="fas fa-moon fa-2x"></i>}
-            {theme && <i class="far fa-moon fa-2x"></i>}
+            {theme && <i class="fas fa-sun fa-2x"></i>}
           </li>
         </ul>
       </div>

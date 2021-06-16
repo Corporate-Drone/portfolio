@@ -1,11 +1,14 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import Button from '../components/UIElements/Button'
 import './_ProjectSmall.scss'
 
 function ProjectSmall(props) {
     const { sourceImg, title, description, buttonLinkGithub, buttonLinkLive } = props;
+    const theme = useSelector(state => state.darkThemeEnabled)
+
     return (
-        <div className="ProjectSmall">
+        <div className={theme ? "ProjectSmall dark-project-small" : "ProjectSmall"}>
             <div className="ProjectSmall-main">
                 <div className="ProjectSmall-main-overlay"></div>
                 <img src={sourceImg}></img>

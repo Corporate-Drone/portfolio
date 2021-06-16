@@ -1,7 +1,8 @@
+@import './_variables';
+
 @mixin center {
     display: flex;
     justify-content: center;
-    // align-items: center;
   }
 
   @mixin pointer {
@@ -21,4 +22,10 @@
     &:hover {
       transform: translateY(-10px);
   }
+  }
+
+  @mixin darkTheme {
+    background-color: $color-primary-dark;
+    color: #fff;
+    transition: 1s;
   }

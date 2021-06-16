@@ -1,17 +1,15 @@
 @import '../styles/_mixins';
+@import '../styles/_variables';
 
 .Project {
     margin-bottom: 1em;
-    // border: 1px solid green;
     @include center-vertically;
     flex-direction: row;
-    color: #353535;
+    color: $color-primary-dark;
 
     &-image {
-        // border: 1px solid blue;
         width: 50%;
         position: relative;
-        // z-index: -1;
         filter: grayscale(100%);
 
         &:hover {
@@ -29,8 +27,7 @@
     &-detail {
         width: 50%;
         height: 50%;
-        // background-color: grey;
-        background-color: #fff;
+        background-color: $color-primary;
         box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.11)
         ;
         border-radius: 5%;
@@ -43,9 +40,9 @@
             flex-wrap: wrap;
     
             &-item {
-                border: 1px solid #353535;;
-                background-color: #353535;;
-                color: #fff;
+                border: 1px solid $color-primary-dark;
+                background-color: $color-primary-dark;
+                color: $color-primary;
                 margin-bottom: 15px;
                 margin-right: 5px;
                 padding: 0.3em;
@@ -69,6 +66,22 @@
 
 }
 
+.dark-project {
+    color: $color-primary;
+    
+
+    .Project-detail {
+        background-color: $color-primary-dark;
+        box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25)
+        ;
+
+        &-technology-item {
+            background-color: $color-primary;
+            color: $color-primary-dark;
+        }
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .Project {
         position: relative;
@@ -79,11 +92,6 @@
             height: 100%;
             z-index: -1;
             opacity: 0.4;
-            // &-overlay {
-            //     // background-color: rgba(0, 0, 0, 0.1);
-            //     position: relative;
-            //     height: 100%;
-            // }
 
             img {
                 height: 100%
@@ -101,4 +109,15 @@
             }
         }
     }
+
+    .dark-project {
+        .Project-detail {
+            background-color: transparent;
+
+            &-technology-item {
+                border: none;
+            }
+        }
+    }
 }
+

@@ -4,7 +4,6 @@
     @include center;
     min-height: 100vh;
     flex-direction: column;
-    // border: 1px solid brown;
 
     h1 {
         text-align: center;
@@ -17,13 +16,10 @@
     }
 
     &-icons {
-    //     @include center;
-    //     flex-direction: column;
-    //     margin: auto;
+
         margin: 0 auto;
 
         &-group-3 {
-    //         margin: auto;
         @include center;
         }
     }
@@ -37,6 +33,5 @@
     .About-icons {
         @include center;
         flex-direction: column;
-        // margin: auto;
     }
   }

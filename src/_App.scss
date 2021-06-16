@@ -2,10 +2,10 @@
 
 .App {
 @include center;
-// border: 1px solid red;
 max-width: 1200px;
 margin: auto;
 flex-direction: column;
+transition: 1s;
 
 h1 {
     font-size: 3rem;
@@ -16,11 +16,15 @@ a {
 }
 }
 
+.dark {
+  @include darkTheme;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #353535; 
+    background: #424242; 
   }

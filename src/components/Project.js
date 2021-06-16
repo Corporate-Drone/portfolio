@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux'
 import Button from '../components/UIElements/Button'
 
 import './_Project.scss'
 
 function Project(props) {
     const { sourceImg, title, description, technology, githubLink, liveLink } = props;
+    const theme = useSelector(state => state.darkThemeEnabled)
 
     const techItems = technology.map(item => (
         <a href={item.website} target="_blank">
@@ -14,7 +15,7 @@ function Project(props) {
     ))
 
     return (
-        <div className="Project">
+        <div className={theme ? "Project dark-project" : "Project"}>
             <div className="Project-image">
                 <div className="Project-image-overlay"></div>
                 <img src={sourceImg} alt={title}></img>
