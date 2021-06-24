@@ -9,7 +9,7 @@ function About() {
             <Fade triggerOnce>
                 <h1>About Me</h1>
                 <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. I also use Express and MongoDB in addition to the technologies below.
+                My focus is creating user-friendly experiences and interactive interfaces while maintaining semantic, clean markup, and SEO friendly code. I have a bachelors degree in Accounting from Sacramento State and I am currently pursuing a second bachelors in Software Development from Western Governor's University. I use the technologies below in addition to MongoDB and Express.
                 </p>
             </Fade>
 

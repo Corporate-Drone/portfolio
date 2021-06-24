@@ -8,7 +8,7 @@ const Home = () => {
 
         <div className="Home" id="home">
             <Fade direction="down" triggerOnce>
-                <h1>Hello, my name is Dustin and I am an aspiring web developer.</h1>
+                <h1>Hello, my name is Dustin and I am a web developer.</h1>
             </Fade>
             <Fade direction="up" triggerOnce>
                 <div className="Home-icons">

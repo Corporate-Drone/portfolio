@@ -11,7 +11,7 @@ function Contact() {
             <Fade delay="10" triggerOnce>
                 <h1>Get In Touch</h1>
                 <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
-                <a href="mailto:webmaster@example.com">contact@example.com</a>
+                <a href="mailto:contact@dmarcus.dev">contact@dmarcus.dev</a>
                 <Fade delay="50" triggerOnce>
                     <h3>I also do game development in my free time.</h3>
                 </Fade>
