@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux' //connects global 
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 import './index.css';
 import App from './App';
@@ -16,7 +16,7 @@ const store = createStore(
 ReactDOM.render(
   <Provider store={store}>
     <Router>
-          <App />
+      <App />
     </Router>
   </Provider>,
   document.getElementById('root')

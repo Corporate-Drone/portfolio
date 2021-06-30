@@ -6,6 +6,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Header from './components/Navigation/Header'
+import changeBackground from './javascripts/changeBackground';
 import { saveState } from './LocalStorage'
 import './_App.scss'
 
@@ -15,6 +16,7 @@ function App() {
   //save theme to localStorage when it changes
   useEffect(() => {
     saveState(theme);
+    changeBackground(theme)
   }, [theme]);
 
   return (

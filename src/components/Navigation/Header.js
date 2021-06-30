@@ -23,7 +23,7 @@ const Header = () => {
     <div className={theme ? "header dark-header" : "header"}>
       <div className="header-logo-nav">
         <div className="header-logo-container">
-          <a href="">
+          <a href="/">
             {/* <Logo className="logo" /> */}
             <div className="header-logo">D</div>
           </a>
@@ -44,7 +44,7 @@ const Header = () => {
           <li className="option resume">
             <Link onClick={closeMobileMenu} activeClass="active" spy={true} smooth={true} duration={1000}>Resume</Link>
           </li>
-          <li className="theme" onClick={handleThemeClick}>
+          <li className="theme option" onClick={handleThemeClick}>
             {!theme && <i class="fas fa-moon fa-2x"></i>}
             {theme && <i class="fas fa-sun fa-2x"></i>}
           </li>

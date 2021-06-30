@@ -4,6 +4,7 @@ import Game from '../components/Game';
 import './_Contact.scss'
 import bannerarcade from '../images/games/bannerarcade.png'
 import srd from '../images/games/srd.gif'
+import Icon from '../components/Icon'
 
 function Contact() {
     return (
@@ -16,8 +17,11 @@ function Contact() {
                     <h3>I also do game development in my free time.</h3>
                 </Fade>
                 <div className="Contact-games">
-                    <Game image={bannerarcade} gif={srd} title={'Squat Rack Defender'} />
-                    <Game title={'Plastic Onslaught (WIP)'} />
+                    <Game image={bannerarcade} gif={srd} title={'Squat Rack Defender'} />    
+                </div>
+                <div>
+                    <h4>Follow me on Twitter to see more!</h4>
+                    <a href='https://twitter.com/afeathereddino' target="_blank" rel="noreferrer"><Icon name={'fab fa-twitter fa-4x'}/></a>
                 </div>
             </Fade>
         </div>
