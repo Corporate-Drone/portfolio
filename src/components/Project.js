@@ -9,7 +9,7 @@ function Project(props) {
     const theme = useSelector(state => state.darkThemeEnabled)
 
     const techItems = technology.map(item => (
-        <a href={item.website} target="_blank">
+        <a href={item.website} target="_blank" rel="noreferrer">
             <div className="Project-detail-technology-item">{item.name}</div>
         </a>
     ))

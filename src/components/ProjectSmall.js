@@ -11,7 +11,7 @@ function ProjectSmall(props) {
         <div className={theme ? "ProjectSmall dark-project-small" : "ProjectSmall"}>
             <div className="ProjectSmall-main">
                 <div className="ProjectSmall-main-overlay"></div>
-                <img src={sourceImg}></img>
+                <img src={sourceImg} alt={title}></img>
                 <div className="ProjectSmall-main-info">
                     <h3 className="ProjectSmall-main-info-text">{title}</h3>
                     <p className="ProjectSmall-main-info-text">{description}</p>

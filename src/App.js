@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
+import { BrowserRouter as Route, Redirect, Switch } from 'react-router-dom';
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
@@ -14,16 +15,21 @@ function App() {
   //save theme to localStorage when it changes
   useEffect(() => {
     saveState(theme);
-  },[theme]);
+  }, [theme]);
 
   return (
     <div className={theme ? "dark" : ""}>
       <div className="App">
-        <Header />
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
+        <Switch>
+          <Route path="/" exact>
+            <Header />
+            <Home />
+            <About />
+            <Projects />
+            <Contact />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
       </div>
     </div>
   );

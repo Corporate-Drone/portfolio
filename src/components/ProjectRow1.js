@@ -9,11 +9,10 @@ import portfolio from '../images/projects/portfolio.PNG';
 function ProjectRow1() {
 
     const Chirp = {
-        // sourceImg: {chirp},
         title: 'Chirp',
         description: 'A social media MERN stack application inspired by Twitter. Users can upload a picture of themselves, like other chirps, and follow other users. Users can only see chirps made from the users they follow. ',
-        github: 'https://github.com/Corporate-Drone/chirp-app-heroku',
-        live: 'https://aqueous-scrubland-05097.herokuapp.com/',
+        github: 'https://github.com/Corporate-Drone/chirp-app',
+        live: 'https://chirp-final.herokuapp.com/',
         technology: [
             {
                 name: 'MongoDB',
@@ -32,8 +31,8 @@ function ProjectRow1() {
                 website: 'https://nodejs.org/'
             },
             {
-                name: 'Passport JS',
-                website: 'http://www.passportjs.org/'
+                name: 'JSON Web Tokens',
+                website: 'https://jwt.io/'
             },
             {
                 name: 'MaterialUI',
@@ -48,7 +47,6 @@ function ProjectRow1() {
     }
 
     const Devblog = {
-        // sourceImg: 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png',
         title: 'Devblog',
         description: 'A CRUD blog application where users can share what they have been developing. Users can post blog posts with images or animated gifs and like and comment on other blog posts. ',
         github: 'https://github.com/Corporate-Drone/devblog',
@@ -90,7 +88,6 @@ function ProjectRow1() {
     }
 
     const Portfolio = {
-        // sourceImg: {'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png'},
         title: 'Portfolio',
         description: 'My personal website designed with Figma and built with React to showcase what I have been working on. ',
         github: 'https://github.com/Corporate-Drone',
