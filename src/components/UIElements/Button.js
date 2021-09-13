@@ -5,7 +5,7 @@ function Button(props) {
     const { name, display, link } = props;
     return (
         <a className="Button" href={link} target="_blank">
-            <i class={name}></i>
+            <i className={name}></i>
         </a>
     )
 }

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { ReactComponent as CloseMenu } from "../../assets/x.svg";
 import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { toggleTheme} from '../../actions';
+import { toggleTheme } from '../../actions';
 import "./_Header.scss";
 
 const Header = () => {
@@ -42,11 +42,13 @@ const Header = () => {
             <Link onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
           </li>
           <li className="option resume">
-            <Link onClick={closeMobileMenu} activeClass="active" spy={true} smooth={true} duration={1000}>Resume</Link>
+            <a onClick={closeMobileMenu} href='https://docs.google.com/document/d/1avH_UvdoVNwNwMAFGotJaKEcNEsqEhrw' target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </li>
           <li className="theme option" onClick={handleThemeClick}>
-            {!theme && <i class="fas fa-moon fa-2x"></i>}
-            {theme && <i class="fas fa-sun fa-2x"></i>}
+            {!theme && <i className="fas fa-moon fa-2x"></i>}
+            {theme && <i className="fas fa-sun fa-2x"></i>}
           </li>
         </ul>
       </div>
