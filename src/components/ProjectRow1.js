@@ -91,7 +91,7 @@ function ProjectRow1() {
         title: 'Portfolio',
         description: 'My personal website designed with Figma and built with React to showcase what I have been working on. ',
         github: 'https://github.com/Corporate-Drone',
-        live: 'https://github.com/Corporate-Drone',
+        live: 'https://www.dsegg.dev',
         technology: [
             {
                 name: 'React',

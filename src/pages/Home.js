@@ -13,7 +13,7 @@ const Home = () => {
             <Fade direction="up" triggerOnce>
                 <div className="Home-icons">
                     <a href='https://github.com/Corporate-Drone' target="_blank" rel="noreferrer"><Icon name={'fab fa-github fa-4x'} /></a>
-                    <a href="mailto:contact@dmarcus.dev">
+                    <a href="mailto:contact@dsegg.dev">
                         <Icon name={'far fa-envelope fa-4x'} /></a>
                     <Icon name={'far fa-file fa-4x'} about={true} tipName={'resumeTip'} tipText={'Resume'} />
                 </div>

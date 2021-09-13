@@ -9,7 +9,7 @@ function About() {
             <Fade triggerOnce>
                 <h1>About Me</h1>
                 <p>
-                My focus is creating user-friendly experiences and interactive interfaces while maintaining semantic, clean markup, and SEO friendly code. I have a bachelors degree in Accounting from Sacramento State and I am currently pursuing a second bachelors in Software Development from Western Governor's University. I use the technologies below in addition to MongoDB and Express.
+                I have a bachelors degree in Accounting from Sacramento State and I am currently pursuing a second bachelors in Software Development from Western Governor's University. Through my studies, I have gained an understanding of computer science concepts and learned to apply this knowledge to efficiently use a variety of web technologies. I primarily use the MERN stack in addition to the technologies below to bring ideas to life for desktop and mobile devices.
                 </p>
             </Fade>
 

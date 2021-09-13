@@ -24,7 +24,7 @@
 
       &:hover {
         background-color: $color-primary-dark;
-        color: $color-primary-light;
+        color: $color-primary;
       }
     }
 
@@ -154,6 +154,11 @@
     .header-logo {
       border: 2px solid $color-primary;
       border-radius: 50%;
+
+      &:hover {
+        background-color: $color-primary;
+        color: $color-primary-dark;
+      }
     }
 
     .active {
