@@ -9,7 +9,7 @@ function About() {
             <Fade triggerOnce>
                 <h1>About Me</h1>
                 <p>
-                I have a bachelors degree in Accounting from Sacramento State and I am currently pursuing a second bachelors in Software Development from Western Governor's University. Through my studies, I have gained an understanding of computer science concepts and learned to apply this knowledge to efficiently use a variety of web technologies. I primarily use the MERN stack in addition to the technologies below to bring ideas to life for desktop and mobile devices.
+                    I have a bachelors degree in Accounting from Sacramento State and I am currently pursuing a second bachelors in Software Development from Western Governor's University. Through my studies, I have gained an understanding of computer science concepts and learned to apply this knowledge to utilize a variety of web technologies to bring ideas to life for desktop and mobile devices.
                 </p>
             </Fade>
 
@@ -33,7 +33,9 @@ function About() {
                 <Bounce direction="up" triggerOnce>
                     <div className="About-icons-group-3">
                         <Icon name={'fab fa-figma fa-4x'} tipName={'figmaTip'} tipText={'Figma'} about={true} />
-                        <Icon name={'fab fa-node fa-4x'} tipName={'nodeTip'} tipText={'Node.js'} about={true} />
+                        <Icon name={'fab fa-wordpress-simple fa-4x'} tipName={'wpTip'} tipText={'WordPress'} about={true} />
+                        <Icon name={'fab fa-node-js fa-4x'} tipName={'nodeTip'} tipText={'Node.js'} about={true} />
+                        <Icon name={'fab fa-php fa-4x'} tipName={'phpTip'} tipText={'PHP'} about={true} />
                     </div>
                 </Bounce>
             </div>

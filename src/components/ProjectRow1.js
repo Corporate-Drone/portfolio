@@ -4,7 +4,7 @@ import Project from './Project'
 import './_ProjectRow1.scss'
 import chirp from '../images/projects/chirp.png';
 import devblog from '../images/projects/devblog.png';
-import portfolio from '../images/projects/portfolio.PNG';
+import superpunch from '../images/projects/superpunch.png';
 
 function ProjectRow1() {
 
@@ -87,15 +87,31 @@ function ProjectRow1() {
         ]
     }
 
-    const Portfolio = {
-        title: 'Portfolio',
-        description: 'My personal website designed with Figma and built with React to showcase what I have been working on. ',
-        github: 'https://github.com/Corporate-Drone',
-        live: 'https://www.dsegg.dev',
+    const Superpunch = {
+        title: 'Superpunch',
+        description: 'An eCommerce site for a fictional company that sells equipment for combat sports. Users can register an account and leave star rated reviews for various products.',
+        github: 'https://github.com/Corporate-Drone/superpunch',
+        live: 'https://superpunch-123.herokuapp.com/',
         technology: [
+            {
+                name: 'MongoDB',
+                website: 'https://www.mongodb.com/'
+            },
+            {
+                name: 'Express',
+                website: 'https://expressjs.com/'
+            },
             {
                 name: 'React',
                 website: 'https://reactjs.org/'
+            },
+            {
+                name: 'Node.js',
+                website: 'https://nodejs.org/'
+            },
+            {
+                name: 'JSON Web Tokens',
+                website: 'https://jwt.io/'
             },
             {
                 name: 'Redux',
@@ -105,6 +121,7 @@ function ProjectRow1() {
                 name: 'Sass',
                 website: 'https://sass-lang.com/'
             }
+
         ]
     }
 
@@ -118,7 +135,7 @@ function ProjectRow1() {
                 <div className="ProjectRow1-projects">
                     <Project sourceImg={chirp} title={Chirp.title} description={Chirp.description} technology={Chirp.technology} githubLink={Chirp.github} liveLink={Chirp.live} />
                     <Project sourceImg={devblog} title={Devblog.title} description={Devblog.description} technology={Devblog.technology} githubLink={Devblog.github} liveLink={Devblog.live} />
-                    <Project sourceImg={portfolio} title={Portfolio.title} description={Portfolio.description} technology={Portfolio.technology} githubLink={Portfolio.github} liveLink={Portfolio.live} />
+                    <Project sourceImg={superpunch} title={Superpunch.title} description={Superpunch.description} technology={Superpunch.technology} githubLink={Superpunch.github} liveLink={Superpunch.live} />
                 </div>
             </Bounce>
         </div >
