@@ -39,6 +39,7 @@
             filter: grayscale(100%);
             transition: .2s ease;
             border-radius: 5%;
+            box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.31);
         }
 
 
@@ -84,6 +85,7 @@
 @media only screen and (max-width: 700px) {
     .ProjectSmall {
         width: 100%;
+        margin-top: 1rem;
 
         &-main-info{
             opacity: 1;
