@@ -129,7 +129,7 @@ function ProjectRow1() {
 
         <div className="ProjectRow1">
             <Bounce triggerOnce fraction="0.7">
-                <h1>Projects</h1>
+                <h2>Projects</h2>
             </Bounce>
             <Bounce triggerOnce fraction="0.3">
                 <div className="ProjectRow1-projects">

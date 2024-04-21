@@ -15,7 +15,7 @@ const Home = () => {
                     <a href='https://github.com/Corporate-Drone' target="_blank" rel="noreferrer"><Icon name={'fab fa-github fa-4x'} /></a>
                     <a href="mailto:contact@dsegg.dev">
                         <Icon name={'far fa-envelope fa-4x'} /></a>
-                    <a href='https://docs.google.com/document/d/1avH_UvdoVNwNwMAFGotJaKEcNEsqEhrw' target="_blank" rel="noreferrer">
+                    <a href='https://docs.google.com/document/d/1zlqaEUlkFF2W1aZTsqrlYNa5zEp9P-0ZFY2XH-YwRoM/edit?usp=sharing' target="_blank" rel="noreferrer">
                         <Icon name={'far fa-file fa-4x'} about={true} tipName={'resumeTip'} tipText={'Resume'} />
                     </a>
                 </div>

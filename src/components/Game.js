@@ -8,7 +8,7 @@ function Game(props) {
     return (
         <Fade delay="50" triggerOnce>
             <div className="Game">
-                <a href='https://afeathereddinosaur.itch.io/squatrackdefender' target="_blank">
+                <a href='https://iratedinosaur.itch.io' target="_blank">
                     <img src={image} alt={title} className="static"></img>
                     <img src={gif} alt={title} className="active"></img>
                     {/* <img class="static" src="https://lh4.googleusercontent.com/-gZiu96oTuu4/Uag5oWLQHfI/AAAAAAAABSE/pl1W8n91hH0/w140-h165-no/Homer-Static.png" />

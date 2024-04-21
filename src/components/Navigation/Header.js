@@ -42,7 +42,7 @@ const Header = () => {
             <Link onClick={closeMobileMenu} activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
           </li>
           <li className="option resume">
-            <a onClick={closeMobileMenu} href='https://docs.google.com/document/d/1avH_UvdoVNwNwMAFGotJaKEcNEsqEhrw' target="_blank" rel="noreferrer">
+            <a onClick={closeMobileMenu} href='https://docs.google.com/document/d/1zlqaEUlkFF2W1aZTsqrlYNa5zEp9P-0ZFY2XH-YwRoM/edit?usp=sharing' target="_blank" rel="noreferrer">
               Resume
             </a>
           </li>

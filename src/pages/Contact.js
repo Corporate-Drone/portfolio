@@ -10,7 +10,7 @@ function Contact() {
     return (
         <div className="Contact" id="contact">
             <Fade delay="10" triggerOnce>
-                <h1>Get In Touch</h1>
+                <h2>Get In Touch</h2>
                 <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
                 <a href="mailto:contact@dsegg.dev">contact@dsegg.dev</a>
                 <Fade delay="50" triggerOnce>
@@ -21,7 +21,7 @@ function Contact() {
                 </div>
                 <div>
                     <h4>Follow me on Twitter to see more!</h4>
-                    <a href='https://twitter.com/afeathereddino' target="_blank" rel="noreferrer"><Icon name={'fab fa-twitter fa-4x'}/></a>
+                    <a href='https://twitter.com/iratedinosaur' target="_blank" rel="noreferrer"><Icon name={'fab fa-twitter fa-4x'}/></a>
                 </div>
             </Fade>
         </div>

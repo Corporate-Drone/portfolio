@@ -21,14 +21,14 @@ function Project(props) {
                 <img src={sourceImg} alt={title}></img>
             </div>
             <div className="Project-detail">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{description}</p>
                 <div className="Project-detail-technology">
                     {techItems}
                 </div>
                 <div className="Project-detail-buttons">
                     <Button name={'fab fa-github fa-2x'} link={githubLink} />
-                    <Button name={'fas fa-external-link-alt fa-2x'} link={liveLink} />
+                    {/* <Button name={'fas fa-external-link-alt fa-2x'} link={liveLink} /> */}
                 </div>
             </div>
 

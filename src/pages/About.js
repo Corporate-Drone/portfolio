@@ -7,9 +7,9 @@ function About() {
     return (
         <div className="About" id="about">
             <Fade triggerOnce>
-                <h1>About Me</h1>
+                <h2>About Me</h2>
                 <p>
-                    I have a bachelors degree in Accounting from Sacramento State and I am currently pursuing a second bachelors in Software Development from Western Governor's University. Through my studies, I have gained an understanding of computer science concepts and learned to apply this knowledge to utilize a variety of web technologies to bring ideas to life for desktop and mobile devices.
+                    I have a bachelors degree in Accounting from Sacramento State and a second bachelors in Software Development from Western Governor's University. Through my studies, I have gained an understanding of computer science concepts and learned to apply this knowledge to utilize a variety of web technologies to bring ideas to life for desktop and mobile devices.
                 </p>
             </Fade>
 
